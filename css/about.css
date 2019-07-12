@@ -106,126 +106,57 @@ nav a:hover{
 
 header{
     margin-bottom:4%;
-    width:100%;
-    display:flex;
 }
 
 header img{
     width:100%;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.top-content{
+    border-bottom: 2px dashed black;
+    padding-bottom:4%;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.top-content h2, .top-content p{
+    margin:0% 2%;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.middle{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    margin-top:4%;
+    margin-bottom:2%;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.middle div{
+    width:45%;
+    border-bottom: 2px dashed black;
+    margin-bottom:4%;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.middle img{
+    margin-bottom:4%;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.btn{
+    margin:4% 0%;
+    border:2px solid black;
+    border-radius:6px;
+    text-align:center;
+    width:35%;
+    padding:1%;
 }
 
-.box:hover{
-    animation-name:shake;
-    animation-duration:1s;
-    animation-iteration-count: infinite;
+.btn:hover{
+    background:black;
+    color:white;
+    transform:scale(1.1);
+    cursor: pointer;
 }
 
-
-@keyframes shake{
-    0%{
-        transform:translate(3px, 0px);
-    }
-    50%{
-        transform:translate(-6px, 0px);
-    }
-    100%{
-        transform:translate(3px, 0px);
-    }
-}
-
-.box1{
-    background-color:teal;
-}
-
-.box2{
-    background-color:gold;
-}
-
-.box3{
-    background-color:cadetblue;
-}
-
-.box4{
-    background-color:coral;
-}
-
-.box5{
-    background-color:crimson;
-}
-
-.box6{
-    background-color:forestgreen;
-}
-
-.box7{
-    background-color:darkorchid;
-}
-
-.box8{
-    background-color:hotpink;
-}
-
-.box9{
-    background-color:indigo;
-}
-
-.box10{
-    background-color:dodgerblue;
-}
-
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.bottom{
+    margin:0% 3%;
 }
 
 footer {
@@ -251,7 +182,6 @@ footer nav a {
     .container{
         width:100%;
     }
-
     nav{
         flex-direction:column;
         align-items:center;
@@ -265,28 +195,18 @@ footer nav a {
         margin:1% 0%;
     }
 
-    .top-content{
+    .middle{
         flex-direction:column;
         align-items:center;
+        margin-left:2%;
     }
 
-    .boxes{
-        flex-direction:column;
-        align-items:center;
-        flex-wrap: nowrap;
-        margin-right:7%;
-    }
-
-    .middle-content .boxes .box{
+    .middle div{
         width:100%;
     }
 
-    .bottom-content{
-        flex-direction:column;
-    }
-
-    .text-container{
-        margin:3% 0%;
+    .middle img{
+        width:100%;
     }
 
     footer nav{
