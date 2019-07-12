@@ -198,6 +198,7 @@ footer nav a {
     .middle{
         flex-direction:column;
         align-items:center;
+        margin-left:2%;
     }
 
     .middle div{
