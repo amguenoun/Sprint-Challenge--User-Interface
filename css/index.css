@@ -148,6 +148,25 @@ header{
     justify-content: center;
 }
 
+.box:hover{
+    animation-name:shake;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes shake{
+    0%{
+        transform:translate(3px, 0px);
+    }
+    50%{
+        transform:translate(-6px, 0px);
+    }
+    100%{
+        transform:translate(3px, 0px);
+    }
+}
+
 .box1{
     background-color:teal;
 }
