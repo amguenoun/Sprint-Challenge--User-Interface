@@ -106,10 +106,6 @@ nav a:hover{
 
 header{
     display:flex;
-    background-image:url("../img/work-station.jpg");
-    background-size:cover;
-    background-repeat:no-repeat;
-    height:70vh;
 }
 
 .contact{
