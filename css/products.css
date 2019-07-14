@@ -108,6 +108,8 @@ header{
     display:flex;
     width:100%;
     margin-bottom:4%;
+    border-bottom:1px dashed black;
+    padding-bottom:4%;
 }
 
 .products{
@@ -143,6 +145,22 @@ button:hover{
     color:white;
     transform:scale(1.1);
     cursor: pointer;
+}
+
+.bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-top:1px dashed black;
+    padding-top:4%;
+}
+
+.bottom div{
+    width:45%;
+}
+
+.bottom img{
+    height:300px;
 }
 
 footer {
